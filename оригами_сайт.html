@@ -1,183 +1,212 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>оригами</title>
-	<style>
-		@font-face{
-			src:url("resurces/fonts/16239.ttf");
-			font-family:NFSUndrgrnd; 
-		}
-		@font-face{
-			src:url("resurces/fonts/15581.otf");
-			font-family: VeryBerry_Pro;
-		}
-		 @font-face{
-		 	src:url('resurces/fonts/15.ttf');
-		 	font-family:ljk_BlackStar;
-		 }
-		 #problem{
-			 width:90px;
-		 }
-
-		h1{
-			color: #800000;
-			font-size: 50px;
-			text-align: center;
-			font-family: ljk_BlackStar;
-		}
-		.origami{
-			color:rgb(123, 255, 71);
-		}
-		h2{
-			color: #0000FF;
-			font-size: 50px;/*размер шрифта*/
-			text-align: center;
-      font-family: ljk_BlackStar;
-		}
-		p{
-			font-size: 50px;
-			color: rgb(255, 222, 36);
-			font-family: NFSUndrgrnd;
-		}
-		span.origami{
-			font-size: 50px;
-			color: rgb(255, 222, 36);
-			font-family: NFSUndrgrnd;
-		}
-		td{
-			border-width: 10px;/*толщина рамочки*/
-			border-style: groove;/*стиль рамочки*/
-			border-color: #00008B;/*оттенок рамочки*/
-
-		}
-		table{
-			/*border-collapse: collapse;*//*удаляет повторяющиеся рамочки*/
-			border: 10px groove #00FF00;/*сокращение*/
-			background-color: mistyrose;
-			background-image: url("resurces/images/s1200.jpg");
-			background-repeat:repeat;
-		}
-		body{
-			background-color: #2F4F4F;/*цвет фона*/
-			background-image: url("resurces/images/unnamed.png");
-			background-repeat:repeat;
-		}
-	        h3{
-	        	border: 30px dashed #FF0000;
-	        	text-align: center;
-	        	color: #000000;
-	        	font-family: ljk_BlackStar;
-	        }
-	        li{
-	        	text-align: center;
-	        	border: 7px dashed rgb(0,0,0);
-	        	font-size: 45px;
-	        	color: #FFFF00;
-	        	font-family: VeryBerry_Pro; 
-	        	background-image: url("resurces/images/min.jpg");
-			    background-repeat:repeat;
-              }
-              img{
-              	border: 15px dotted #4B0082;
-							width:125px;
-							             }
-                a{
-                	color: #FFFFFF;
-                }
-                td{
-                	color: white;
-                	font-size: 30px;
-                }
-</style>
+    <meta charset="UTF-8">
+    <title>оригами</title>
+    <style>
+        @font-face {
+            src: url("resurces/fonts/16239.ttf");
+            font-family: NFSUndrgrnd;
+        }
+        
+        @font-face {
+            src: url("resurces/fonts/15581.otf");
+            font-family: VeryBerry_Pro;
+        }
+        
+        @font-face {
+            src: url('resurces/fonts/15.ttf');
+            font-family: ljk_BlackStar;
+        }
+        
+        #problem {
+            width: 90px;
+        }
+        
+        h1 {
+            color: #800000;
+            font-size: 50px;
+            text-align: center;
+            font-family: ljk_BlackStar;
+        }
+        
+        .origami {
+            color: rgb(123, 255, 71);
+        }
+        
+        h2 {
+            color: #0000FF;
+            font-size: 50px;
+            /*размер шрифта*/
+            text-align: center;
+            font-family: ljk_BlackStar;
+        }
+        
+        p {
+            font-size: 50px;
+            color: rgb(255, 222, 36);
+            font-family: NFSUndrgrnd;
+        }
+        
+        span.origami {
+            font-size: 50px;
+            color: rgb(255, 222, 36);
+            font-family: NFSUndrgrnd;
+        }
+        
+        td {
+            border-width: 10px;
+            /*толщина рамочки*/
+            border-style: groove;
+            /*стиль рамочки*/
+            border-color: #00008B;
+            /*оттенок рамочки*/
+        }
+        
+        table {
+            /*border-collapse: collapse;*/
+            /*удаляет повторяющиеся рамочки*/
+            border: 10px groove #00FF00;
+            /*сокращение*/
+            background-color: mistyrose;
+            background-image: url("resurces/images/s1200.jpg");
+            background-repeat: repeat;
+        }
+        
+        body {
+            background-color: #2F4F4F;
+            /*цвет фона*/
+            background-image: url("resurces/images/unnamed.png");
+            background-repeat: repeat;
+        }
+        
+        h3 {
+            border: 30px dashed #FF0000;
+            text-align: center;
+            color: #000000;
+            font-family: ljk_BlackStar;
+        }
+        
+        li {
+            text-align: center;
+            border: 7px dashed rgb(0, 0, 0);
+            font-size: 45px;
+            color: #FFFF00;
+            font-family: VeryBerry_Pro;
+            background-image: url("resurces/images/min.jpg");
+            background-repeat: repeat;
+        }
+        
+        img {
+            border: 15px dotted #4B0082;
+            width: 125px;
+        }
+        
+        a {
+            color: #FFFFFF;
+        }
+        
+        td {
+            color: white;
+            font-size: 30px;
+        }
+    </style>
 </head>
+
 <body>
-	<h1 class="origami">На этом сайте вы научитесь делать оригами.</h1><!--заголовок-->
-	<h2>Сейчас я научу вас делать журавлей.</h2><!--подзаголовок-->
-	<p class="origami">
-		<strong><em>Согните квадратный лист бумаги</em></strong> 
-		по диагонали пополам. Затем еще раз согните по диагонали пополам. 
-		<span class="origami">Раскройте кармашек</span> 
-		в квадрат с другой стороны так же. Поверните квадрат, чтобы внизу он раскрывался. Подогните углы к центральной линии, чтобы внизу получился острый угол. С другой стороны повторите тоже самое. Теперь разогните с двух сторон. Отогните низ и оттяните вверх, чуть прижав центр. Расправте края также к центральной линии. Дальше смотрите по картинке.
-	</p><!--текст-->
-	<img src="resurces/images/images (1).jpg">
-	<img src="resurces/images/images.jpg">
-	<a href="http://gamejulia.ru/origami-zhuravlik.html">Перейдите по ссылке.</a>
-	<img src="resurces/images/images (2).jpg">
-	<a href="https://www.youtube.com/watch?v=eGMHiK9e0Tg">Посмотрите видео.</a>
-	<a href="https://www.youtube.com/watch?v=t-pzcCjELew">Послушайте песню журавли.</a>
-	<h2>Закладка оригами.</h2>
-	<p class="origami">Согните лист бумаги по диагонали пополам. Подогните края вашего треугольника к его верхушке. Отогните их. Отогните верхний слой бумаги вниз по намеченым линиям. Загните внутрь этого кормашка края треугольника. Разукрасьте вашу закладку. Если надо приклейте ушки или зубки.</p>
-	<img src="resurces/images/maxresdefault.jpg"id="problem">
-	<h2>Собака кусака оригами.</h2>
-	<p>Согните квадратный лист бумаги пополам не по диагонали. Пометьте центр вашей полоски согнув её пополам не сгладив сгиб. Подогните к пометке края. Расскройте кармашки в домики. Переверните лист. Края подогните к центру.</p>
-	<a href="https://www.youtube.com/watch?v=4FscP8LGdw8">Дальше смотрите видео.</a>
-	<h2>список поделок.</h2>
-	<ol type="i" start = "4"><!--reversedтся наоборот--> 
-		<li>журавль оригами</li>
-		<li>закладка оригами</li>
-		<li>собака кусака оригами</li>
-		<li>гадалка</li>
-	</ol><!--нумерованный список-->
-	<h3>Список необходимых предметов!</h3>
-	<ul>
-		<li>Бумага</li>
-		<li>Краски</li>
-		<li>Карандаши</li>
-		<li>Фломастеры</li>
-		<li>Ножницы</li>
-	</ul>
-<table>
-	<tr>
-		<td></td>
-		<td>Телевизоры</td>
-		<td>Видеокамеры</td>
-	</tr>
-	<tr>
-		<td>Продали</td>
-		<td>12<br>В 11 раз меньше</td>
-		<td>?</td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<td colspan="2">Площадь квартиры</td>
-	</tr>
-	<tr>
-	  <td>Общая</td>
-	  <td>73 кв. м 80 кв. дм</td>	
-	</tr>
-	<tr>
-		<td>Жилая</td>
-		<td> 45 кв.м 50 кв. дм</td>
-	</tr>
-	<tr>
-	    <td>Нежилая</td>
-	    <td>?</td>	
-	</tr>
-</table>
-<table>
-	<tr>
-		<td rowspan="2"></td>
-		<td colspan="2">Среднем</td>
-		<td rowspan="2">карие глаза</td>
-	</tr>
-	<tr>
-		<td>рост</td>
-		<td>вес</td>
-	</tr>
-	<tr>
-		<td>Мужчины</td>
-		<td>1.9</td>
-		<td>0.003</td>
-		<td>40%</td>
-	</tr>
-	<tr>
-		<td>Женщины</td>
-		<td>1.7</td>
-		<td>0.002</td>
-		<td>43%</td>
-	</tr>
-</table>
+    <h1 class="origami">На этом сайте вы научитесь делать оригами.</h1>
+    <!--заголовок-->
+    <h2>Сейчас я научу вас делать журавлей.</h2>
+    <!--подзаголовок-->
+    <p class="origami">
+        <strong><em>Согните квадратный лист бумаги</em></strong> по диагонали пополам. Затем еще раз согните по диагонали пополам.
+        <span class="origami">Раскройте кармашек</span> в квадрат с другой стороны так же. Поверните квадрат, чтобы внизу он раскрывался. Подогните углы к центральной линии, чтобы внизу получился острый угол. С другой стороны повторите тоже самое. Теперь
+        разогните с двух сторон. Отогните низ и оттяните вверх, чуть прижав центр. Расправте края также к центральной линии. Дальше смотрите по картинке.
+    </p>
+    <!--текст-->
+    <img src="resurces/images/images (1).jpg">
+    <img src="resurces/images/images.jpg">
+    <a href="http://gamejulia.ru/origami-zhuravlik.html">Перейдите по ссылке.</a>
+    <img src="resurces/images/images (2).jpg">
+    <a href="https://www.youtube.com/watch?v=eGMHiK9e0Tg">Посмотрите видео.</a>
+    <a href="https://www.youtube.com/watch?v=t-pzcCjELew">Послушайте песню журавли.</a>
+    <h2>Закладка оригами.</h2>
+    <p class="origami">Согните лист бумаги по диагонали пополам. Подогните края вашего треугольника к его верхушке. Отогните их. Отогните верхний слой бумаги вниз по намеченым линиям. Загните внутрь этого кормашка края треугольника. Разукрасьте вашу закладку. Если надо
+        приклейте ушки или зубки.</p>
+    <img src="resurces/images/maxresdefault.jpg" id="problem">
+    <h2>Собака кусака оригами.</h2>
+    <p>Согните квадратный лист бумаги пополам не по диагонали. Пометьте центр вашей полоски согнув её пополам не сгладив сгиб. Подогните к пометке края. Расскройте кармашки в домики. Переверните лист. Края подогните к центру.</p>
+    <a href="https://www.youtube.com/watch?v=4FscP8LGdw8">Дальше смотрите видео.</a>
+    <h2>список поделок.</h2>
+    <ol type="i" start="4">
+        <!--reversedтся наоборот-->
+        <li>журавль оригами</li>
+        <li>закладка оригами</li>
+        <li>собака кусака оригами</li>
+        <li>гадалка</li>
+    </ol>
+    <!--нумерованный список-->
+    <h3>Список необходимых предметов!</h3>
+    <ul>
+        <li>Бумага</li>
+        <li>Краски</li>
+        <li>Карандаши</li>
+        <li>Фломастеры</li>
+        <li>Ножницы</li>
+    </ul>
+    <table>
+        <tr>
+            <td></td>
+            <td>Телевизоры</td>
+            <td>Видеокамеры</td>
+        </tr>
+        <tr>
+            <td>Продали</td>
+            <td>12<br>В 11 раз меньше</td>
+            <td>?</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="2">Площадь квартиры</td>
+        </tr>
+        <tr>
+            <td>Общая</td>
+            <td>73 кв. м 80 кв. дм</td>
+        </tr>
+        <tr>
+            <td>Жилая</td>
+            <td> 45 кв.м 50 кв. дм</td>
+        </tr>
+        <tr>
+            <td>Нежилая</td>
+            <td>?</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Среднем</td>
+            <td rowspan="2">карие глаза</td>
+        </tr>
+        <tr>
+            <td>рост</td>
+            <td>вес</td>
+        </tr>
+        <tr>
+            <td>Мужчины</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Женщины</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
 </body>
+
 </html>
