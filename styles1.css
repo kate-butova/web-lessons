@@ -1,0 +1,27 @@
+.card {
+    float: left;
+    border: 5px outset rgb(255, 165, 92);
+    width: 30%;
+    margin: 5px;
+    background-color: rgb(255, 244, 209);
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card p {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url(фн.jpg)
+}
