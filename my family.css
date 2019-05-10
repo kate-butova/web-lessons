@@ -5,3 +5,7 @@ img {
 body {
     background-image: url(г.jpeg);
 }
+
+div {
+    border: 5px outset rgba(62, 85, 214, 0.459);
+}

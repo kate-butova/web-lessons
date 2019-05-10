@@ -1,5 +1,5 @@
 .card {
-    float: left;
+    /*float: left;возможность выстроить элементов в ряд*/
     border: 5px outset rgb(255, 165, 92);
     width: 30%;
     margin: 5px;
@@ -7,15 +7,20 @@
 }
 
 img {
-    width: 100%;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 5%;
 }
 
 h2 {
     text-align: center;
+    color: rgba(202, 138, 19, 0.479);
+    font-style: italic;
 }
 
 .card p {
     margin: 10px;
+    font-style: italic;
 }
 
 h1 {
@@ -23,5 +28,10 @@ h1 {
 }
 
 body {
-    background-image: url(фн.jpg)
+    background-image: url("фн.jpg");
+}
+
+.films {
+    display: flex;
+    justify-content: flex-end;
 }
