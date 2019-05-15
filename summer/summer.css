@@ -1,13 +1,8 @@
-.main div {
-    border: 3px solid blueviolet;
-}
-
 .main {
     display: flex;
     height: 98%;
     flex-flow: column;
     justify-content: space-between;
-    border: 7px solid red;
     align-items: center;
 }
 
@@ -24,12 +19,19 @@
 
 .main div {
     padding: 6px;
+    margin: 10px;
 }
 
 #b2 {
-    background-image: url(https://source.unsplash.com/5Dga0T0x6GY/300x400)
+    background-image: url(https://source.unsplash.com/lSWB7ZvEICU/300x400)
 }
 
 body {
     background-image: url(подложка.jpg);
+}
+
+#b4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
