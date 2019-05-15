@@ -1,7 +1,7 @@
 .card {
     /*float: left;возможность выстроить элементов в ряд*/
     border: 5px outset rgb(255, 165, 92);
-    width: 30%;
+    width: 890px;
     margin: 5px;
     background-color: rgb(255, 244, 209);
 }
@@ -33,5 +33,28 @@ body {
 
 .films {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    /*space-around- свободное пространство вокруг каждого элемента 
+    space-between- свободное пространство между элементами
+    flex-start- все элементы в начале контейнера
+  flex-end- все элементы в конце контейнера 
+  center*/
+    flex-direction: row;
+    /*column-reverse column row row-reverse- строка наоборот*/
+    align-items: flex-end;
+    /*baseline-текст на одном уровне*/
+    /*center*/
+    /*stretch-высота всех элементов равна*/
+    /*flex-start*/
+    /*flex-end*/
+    flex-wrap: no-wrap;
+    /*no-wrap wrap wrap-reverse*/
+    border: 6px outset rgba(194, 255, 103, 0.5);
+    height: 809px;
+    /*align-content: flex-start;*/
+}
+
+.bird {
+    order: 0;
+    /*порядок отображения(-1 0 1)*/
 }
