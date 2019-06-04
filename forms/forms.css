@@ -1,0 +1,51 @@
+input[type="text"] {
+    width: 200px;
+}
+
+input[type="number"] {
+    background-color: rgb(80, 255, 255);
+}
+
+input[value="сохранить"] {
+    background-color: rgb(52, 52, 221);
+}
+
+p[class^="t"]:hover {
+    color: rgb(255, 255, 255);
+    /*стилизует только те теги пи класс которых начинается с букву t*/
+}
+
+p[class$="t"] {
+    /*стилизует только те теги пи класс которых заканчивается с букву t*/
+}
+
+p[class*="t"] {
+    /*стилизует только те теги пи класс которых содержит букву t*/
+}
+
+.t1:before
+/*after-после*/
+
+{
+    content: "dxcfvghnmnnb vcfxdcvb vgcdxdcvbgnhbvgfxdsxcvbgnmjhbvgfcdf vbbvcfrtgyh nbvgyhb njbhb njujhn ";
+    color: rgb(52, 7, 156);
+}
+
+.t2:before {
+    content: "'";
+    color: red;
+}
+
+.t2:after {
+    content: "'";
+    color: red;
+}
+
+input[type="text"]::placeholder {
+    color: black
+}
+
+input[type="radio"]:checked {
+    border: 2px solid green;
+    width: 200px
+}

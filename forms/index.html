@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=<>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <fieldset>
         <legend>контактная информация</legend>
         <label for="name">Имя</label>
-        <input type="text" id="name"><br><br>
+        <input type="text" placeholder="Бутова Екатерина Андреевна" id="name"><br><br>
         <label for="phone">телефон</label>
         <input type="phone" id="phone"><br><br>
         <label>Email <input type="email"></label><br><br>
@@ -30,7 +31,38 @@
         </select><br><br>
         <label for="">какие темы вам нравятся больше всего? <textarea name="" id="" cols="30" rows="10"></textarea></label>
     </fieldset>
-    <fieldset></fieldset>
+    <fieldset>
+        <legend>оценка сайта</legend>
+        <P>почему вы выбрали нашу школу?</P>
+        <input type="checkbox" id="one">
+        <label for="one">здесь хорошо преподают</label><br><br>
+        <input type="checkbox" id="two">
+        <label for="two">в этой школе не надо выходить из дома</label>
+        <p>будете рекомендовать наш сайт знакомым?</p>
+        <input type="radio" checked="true" name="rud" id="on">
+        <label for="on">да</label><br><br>
+        <input type="radio" name="rud" id="to">
+        <label for="to">нет</label>
+        <p>что можно сделать для нашего сайта?</p>
+        <input type="checkbox" id="chb">
+        <label for="chb">добавить новый анимированый фон для сайта</label><br><br>
+        <input type="checkbox" id="eo">
+        <label for="eo">добавить игры на английском языке</label><br><br>
+        <p>какой ваш любимый цвет?</p>
+        <input type="color"><br><br>
+        <p>загрузите свою фотографию</p>
+        <input type="file"><br><br>
+        <input type="button" value="сохранить">
+        <button>отмена</button>
+        <input type="submit" value="пожаловаться на сайт">
+        <p class="t1">text1</p>
+        <p class="t2">text2</p>
+        <p class="t3">text3</p>
+
+
+
+
+    </fieldset>
 </body>
 
 </html>
